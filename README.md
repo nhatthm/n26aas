@@ -1,5 +1,6 @@
 # `n26api` as a Service
 
+[![GitHub Releases](https://img.shields.io/github/v/release/nhatthm/n26aas)](https://github.com/nhatthm/n26aas/releases/latest)
 [![Build Status](https://github.com/nhatthm/n26aas/actions/workflows/test.yaml/badge.svg)](https://github.com/nhatthm/n26aas/actions/workflows/test.yaml)
 [![codecov](https://codecov.io/gh/nhatthm/n26aas/branch/master/graph/badge.svg?token=eTdAgDE2vR)](https://codecov.io/gh/nhatthm/n26aas)
 [![Go Report Card](https://goreportcard.com/badge/github.com/nhatthm/httpmock)](https://goreportcard.com/report/github.com/nhatthm/httpmock)
