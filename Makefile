@@ -1,14 +1,14 @@
-VENDORDIR = vendor
+VENDOR_DIR = vendor
 
-GOLANGCI_LINT_VERSION ?= v1.51.1
+GOLANGCI_LINT_VERSION ?= v1.55.2
 
 GO ?= go
 GOLANGCI_LINT ?= $(shell go env GOPATH)/bin/golangci-lint-$(GOLANGCI_LINT_VERSION)
 
-.PHONY: $(VENDORDIR) lint test test-unit
+.PHONY: $(VENDOR_DIR) lint test test-unit
 
-$(VENDORDIR):
-	@mkdir -p $(VENDORDIR)
+$(VENDOR_DIR):
+	@mkdir -p $(VENDOR_DIR)
 	@$(GO) mod vendor
 
 lint:
